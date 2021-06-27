@@ -36,8 +36,8 @@ void main(List<String> args) {
   // assert((3 >> 1) == 1); // 0011 >> 1 == 0001
   // assert((3 | 4) == 7); // 0011 | 0100 == 0111
 
-  // ! Literal nubers are compile-time constants.
-  const msPerSecond = 1000;
-  const secondsUntilRetry = 5;
-  const msUntilRetry = secondsUntilRetry * msPerSecond;
+  // * Literal nubers are compile-time constants.
+  // const msPerSecond = 1000;
+  // const secondsUntilRetry = 5;
+  // const msUntilRetry = secondsUntilRetry * msPerSecond;
 }
