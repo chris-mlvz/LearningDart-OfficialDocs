@@ -1,6 +1,6 @@
 void main(List<String> args) {
   // * simple Dart set
-  var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
+  // var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
   // print(halogens);
 
   // * empty set
