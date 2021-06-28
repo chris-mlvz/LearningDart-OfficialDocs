@@ -22,6 +22,11 @@ class Square implements Shape {
   num get area => pow(side, 2);
 }
 
+class CircleMock implements Circle {
+  num area = 0;
+  num radius = 0;
+}
+
 // * Option 1: Create a top-level function
 Shape shapeFactory(String type) {
   if (type == 'circle') return Circle(2);
