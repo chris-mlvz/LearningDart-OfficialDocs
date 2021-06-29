@@ -37,7 +37,7 @@ void main(List<String> args) {
   // }
 
   // * Support empty case clauses
-  var command = 'CLOSED';
+  // var command = 'CLOSED';
   // switch (command) {
   //   case 'CLOSED': // Empty case falls through.
   //   case 'NOW_CLOSED':
