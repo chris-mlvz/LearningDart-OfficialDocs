@@ -25,6 +25,13 @@ class Spacecraft {
   }
 }
 
+class Orbiter extends Spacecraft {
+  double altitude;
+
+  Orbiter(String name, DateTime launchDate, this.altitude)
+      : super(name, launchDate);
+}
+
 void main(List<String> args) {
   var rocket = Spacecraft("Voyager", DateTime.utc(1989, 11, 9));
   rocket.describe();
